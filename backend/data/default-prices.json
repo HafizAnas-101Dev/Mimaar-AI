@@ -1,0 +1,207 @@
+{
+  "default_currency": "SAR",
+  "note": "Placeholder finishing rates for demo purposes only. Replace with local market rates before relying on them.",
+  "sample": true,
+  "finish_multipliers": {
+    "basic": 0.75,
+    "standard": 1.0,
+    "premium": 1.6
+  },
+  "tables": {
+    "SAR": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 35.0,
+        "high": 70.0,
+        "labour_share": 0.55
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 80.0,
+        "high": 180.0,
+        "labour_share": 0.35
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 25.0,
+        "high": 55.0,
+        "labour_share": 0.55
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 600.0,
+        "high": 1800.0,
+        "labour_share": 0.2
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 500.0,
+        "high": 1500.0,
+        "labour_share": 0.2
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 80.0,
+        "high": 400.0,
+        "labour_share": 0.3
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 150.0,
+        "high": 600.0,
+        "labour_share": 0.7
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 400.0,
+        "high": 1500.0,
+        "labour_share": 0.5
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 200.0,
+        "high": 800.0,
+        "labour_share": 0.65
+      }
+    },
+    "PKR": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 900.0,
+        "high": 2200.0,
+        "labour_share": 0.55
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 2500.0,
+        "high": 7000.0,
+        "labour_share": 0.35
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 600.0,
+        "high": 1500.0,
+        "labour_share": 0.55
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 25000.0,
+        "high": 90000.0,
+        "labour_share": 0.2
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 18000.0,
+        "high": 70000.0,
+        "labour_share": 0.2
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 1500.0,
+        "high": 12000.0,
+        "labour_share": 0.3
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 3000.0,
+        "high": 12000.0,
+        "labour_share": 0.7
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 8000.0,
+        "high": 30000.0,
+        "labour_share": 0.5
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 4000.0,
+        "high": 15000.0,
+        "labour_share": 0.65
+      }
+    },
+    "USD": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 9.0,
+        "high": 19.0,
+        "labour_share": 0.55
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 21.0,
+        "high": 48.0,
+        "labour_share": 0.35
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 7.0,
+        "high": 15.0,
+        "labour_share": 0.55
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 160.0,
+        "high": 480.0,
+        "labour_share": 0.2
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 130.0,
+        "high": 400.0,
+        "labour_share": 0.2
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 20.0,
+        "high": 110.0,
+        "labour_share": 0.3
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 40.0,
+        "high": 160.0,
+        "labour_share": 0.7
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 110.0,
+        "high": 400.0,
+        "labour_share": 0.5
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 55.0,
+        "high": 210.0,
+        "labour_share": 0.65
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "_instructions": "Fill in your company under vendor (name is required) and your rates (low and high) for each currency you quote in. Remove currencies you don't use. Wall, floor and ceiling are per m2; everything else is per item. Add your logo with: python -m scripts.add_vendor_logo <this file> <logo.png>. Then import the file in Mimaar: Price table > Import. Optional: labour_share (0 to 1) is the part of each rate that is labour, so reports can show labour and materials separately.",
+  "default_currency": "SAR",
+  "note": "",
+  "vendor": {
+    "name": "",
+    "tagline": "",
+    "logo": null,
+    "phone": "",
+    "email": "",
+    "website": "",
+    "address": "",
+    "city": "",
+    "valid_until": "",
+    "terms": ""
+  },
+  "finish_multipliers": {
+    "basic": 0.75,
+    "standard": 1.0,
+    "premium": 1.6
+  },
+  "tables": {
+    "SAR": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      }
+    },
+    "PKR": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      }
+    },
+    "USD": {
+      "wall": {
+        "label": "Wall plaster and paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "floor": {
+        "label": "Floor tiling",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "ceiling": {
+        "label": "Ceiling paint",
+        "unit": "m2",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "door": {
+        "label": "Door supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "window": {
+        "label": "Window supply and fit",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "fixture": {
+        "label": "Light fixture",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "crack": {
+        "label": "Crack repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "damp": {
+        "label": "Damp treatment",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      },
+      "peeling": {
+        "label": "Peeling paint repair",
+        "unit": "each",
+        "low": 0.0,
+        "high": 0.0,
+        "labour_share": null
+      }
+    }
+  }
+}

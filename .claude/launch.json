@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "backend/.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--app-dir", "backend", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "glimmer",
+      "runtimeExecutable": "backend/models/llama.cpp/llama-server.exe",
+      "runtimeArgs": [
+        "-m", "backend/models/glimmer/Muse-Glimmer-30B-UD-Q4_K_XL.gguf",
+        "--mmproj", "backend/models/glimmer/mmproj-Muse-Glimmer-30B-Q8_0.gguf",
+        "--alias", "muse-glimmer-30b",
+        "--host", "127.0.0.1", "--port", "8080",
+        "-c", "16384", "--fit", "on", "--fit-target", "3600",
+        "--parallel", "1",
+        "-md", "backend/models/glimmer/dflash-kquant.gguf", "--spec-type", "draft-dflash", "--spec-draft-n-max", "8"
+      ],
+      "port": 8080
+    }
+  ]
+}

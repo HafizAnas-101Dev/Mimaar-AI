@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+backend/.env
+backend/.cache/
+backend/.data/
+eval/results/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Raw API probes may contain user photos; review before committing
+backend/fixtures/*.json
+backend/fixtures/*.txt
+
+.DS_Store
+
+# Local model weights and runtimes (large; downloaded by scripts/setup_local_models)
+backend/models/
+
+# Editors
+.idea/
+.vscode/

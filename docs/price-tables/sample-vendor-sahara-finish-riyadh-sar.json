@@ -1,0 +1,88 @@
+{
+  "default_currency": "SAR",
+  "note": "Sample vendor for testing imports. Fictional company; rates are illustrative.",
+  "vendor": {
+    "name": "Sahara Finish Co.",
+    "tagline": "Interior finishing and repairs, Riyadh",
+    "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICA8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjI2IiBmaWxsPSIjMWQzNTU3Ii8+CiAgPGNpcmNsZSBjeD0iODQiIGN5PSIzOCIgcj0iMTQiIGZpbGw9IiNmNGEyNjEiLz4KICA8cGF0aCBkPSJNMCA4NiBDIDI4IDYyLCA1MiA2MiwgNzIgNzggUyAxMDQgOTIsIDEyMCA3NCBWMTIwIEgwWiIgZmlsbD0iI2U5YzQ2YSIvPgogIDxwYXRoIGQ9Ik0wIDk4IEMgMzAgODIsIDU4IDg0LCA4NCA5NiBTIDExMCAxMDQsIDEyMCA5NiBWMTIwIEgwWiIgZmlsbD0iI2U3NmY1MSIvPgogIDx0ZXh0IHg9IjE4IiB5PSI1MiIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIj5TRjwvdGV4dD4KPC9zdmc+",
+    "phone": "+966 50 000 0000",
+    "email": "quotes@sahara-finish.example",
+    "website": "sahara-finish.example",
+    "address": "Sample address, Al Olaya, Riyadh",
+    "city": "Riyadh",
+    "valid_until": "31 December 2026",
+    "terms": "Sample vendor (fictional). Rates include labour and materials, exclude 15% VAT. 50% on start, 50% on completion. Final price after site visit."
+  },
+  "finish_multipliers": {
+    "basic": 0.8,
+    "standard": 1.0,
+    "premium": 1.5
+  },
+  "tables": {
+    "SAR": {
+      "wall": {
+        "label": "Gypsum plaster + 2 coats premium emulsion",
+        "unit": "m2",
+        "low": 45.0,
+        "high": 85.0,
+        "labour_share": 0.5
+      },
+      "floor": {
+        "label": "Porcelain tiles 60x60, laid and grouted",
+        "unit": "m2",
+        "low": 110.0,
+        "high": 220.0,
+        "labour_share": 0.3
+      },
+      "ceiling": {
+        "label": "Ceiling skim + 2 coats matt paint",
+        "unit": "m2",
+        "low": 30.0,
+        "high": 60.0,
+        "labour_share": 0.5
+      },
+      "door": {
+        "label": "Solid wood door, frame and fitting",
+        "unit": "each",
+        "low": 900.0,
+        "high": 2200.0,
+        "labour_share": 0.15
+      },
+      "window": {
+        "label": "Aluminium sliding window, double glazed",
+        "unit": "each",
+        "low": 700.0,
+        "high": 1900.0,
+        "labour_share": 0.15
+      },
+      "fixture": {
+        "label": "LED ceiling light, supplied and fitted",
+        "unit": "each",
+        "low": 120.0,
+        "high": 450.0,
+        "labour_share": 0.25
+      },
+      "crack": {
+        "label": "Crack routing, mesh and refill",
+        "unit": "each",
+        "low": 200.0,
+        "high": 700.0,
+        "labour_share": 0.7
+      },
+      "damp": {
+        "label": "Damp-proof treatment and repaint",
+        "unit": "each",
+        "low": 500.0,
+        "high": 1800.0,
+        "labour_share": 0.45
+      },
+      "peeling": {
+        "label": "Scrape, prime and repaint patch",
+        "unit": "each",
+        "low": 250.0,
+        "high": 900.0,
+        "labour_share": 0.6
+      }
+    }
+  }
+}
