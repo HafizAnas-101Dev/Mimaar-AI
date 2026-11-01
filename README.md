@@ -20,12 +20,12 @@ In the app choose **A whole room → Or try an example room** for a complete six
 
 ```mermaid
 flowchart LR
-    A[Site photo(s)] --> B[Perceive<br/>SAM 3 masks<br/>or Muse boxes]
-    B --> C[Measure<br/>counts, areas,<br/>m² from a known door height]
-    C --> D[Price<br/>editable SAR / PKR / USD table<br/>× finish level]
-    C --> E[Reason<br/>Muse Glimmer / Muse Spark:<br/>photo + measurements → strict JSON report]
-    D --> E
-    E --> F[Present<br/>mask layers, quantities, defects,<br/>confidence + trace, PDF]
+    A["Site photos<br/>floor, ceiling, walls"] --> B["Perceive<br/>SAM 3 masks"]
+    B --> C["Measure<br/>counts and m²<br/>from sizes, a door or estimates"]
+    C --> D["Price<br/>active price list<br/>SAR / PKR / USD, finish level"]
+    D --> R["Instant report<br/>overlay, quantities,<br/>defects, cost"]
+    R --> E["Write<br/>Muse Glimmer:<br/>defect verdicts + summary"]
+    E --> F["Present<br/>EN / AR / UR report,<br/>edits, PDF quote"]
 ```
 
 1. **Perceive.** Element and defect detection. `PERCEIVER=sam_local` runs SAM 3 masks on this PC, `sam` uses SAM 3.1 over the Meta Model API, `muse` uses grounding boxes from the reasoning model, and `mock` uses synthetic geometry.
